@@ -73,7 +73,7 @@ const queryItems = (start, limit) => {
           `
                     <div class="card">
                         <div class="card__img">
-                            <img src="../../public/img/cards/item${element.id}.webp" alt="..." loading="lazy">
+                            <img src="../../Magvai.io/public/img/cards/item${element.id}.webp" alt="..." loading="lazy">
                         </div>
                         <div class="card__description">
                             <div class="card__name">no name</div>
