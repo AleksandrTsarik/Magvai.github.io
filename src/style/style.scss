@@ -220,7 +220,13 @@ body {
     }
   }
   &__info {
-    padding: 20% 0 150px;
+    padding: 32% 0 150px;
+    @media (max-width: 1023px) {
+      padding: 60% 0 75px;
+    }
+    @media (max-width: 575px) {
+      padding: 63% 0 50px;
+    }
   }
   &__subtitle {
     font-size: 16px;
